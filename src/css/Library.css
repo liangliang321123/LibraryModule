@@ -1,0 +1,56 @@
+.library_margin {
+    margin: 15px;
+}
+
+.library_header {
+    margin-bottom: 20px;
+}
+
+.library_body {}
+
+.grid_container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.grid_item {
+    flex: 0 0 25%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.book_info {
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.library_dropdown_button {
+    background-color: #0c2b5a;
+    color: #fff;
+    padding: 7px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.library_dropdown_content {
+    display: none;
+    position: absolute;
+}
+
+.library_dropdown_content button {
+    display: block;
+    padding: 12px 16px;
+    width:100%;
+    border:none;
+    cursor: pointer;
+}
+
+.library_dropdown_content button:hover {
+    background-color: grey;
+}
+
+.library_dropdown:hover .library_dropdown_content {
+    display: block;
+}

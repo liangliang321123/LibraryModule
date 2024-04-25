@@ -1,0 +1,244 @@
+body {
+    font-family: "Segoe UI", Verdana, Arial, sans-serif !important;
+    font-size: 12px !important;
+    background-color: white !important;
+}
+
+.homePage_header {
+    padding: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /*text-align: center;*/
+    background: #f7f6ff;
+    color: white;
+    font-size: 12px;
+    width: 100%;
+    height: 100px;
+}
+
+.homePage_h1 {
+    color: #0c2b5a;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.homePage_userID {
+    color: #0c2b5a;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    /* padding-left: 10px; */
+    /*padding-right: 10px;*/
+}
+
+.homePage_userDetails {
+    border: 2px solid #0c2b5a;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    margin: 5px;
+}
+/* Navigation bar */
+
+.navBar_header ul {
+    list-style: none;
+    background-color: #0c2b5a;
+    margin: 0;
+    padding: 0;
+}
+
+.navBar_header ul li {
+    display: inline-block;
+    position: relative;
+}
+
+.navBar_header ul li a {
+    display: block;
+    padding: 5px 15px;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    font-size: 13px;
+}
+
+.navBar_header ul li ul.dropdown {
+    width: 200px;
+    /* Adjust the width as needed */
+    background: #0c2b5a;
+    position: absolute;
+    z-index: 999;
+    display: none;
+    top: 100%;
+    /* Position the dropdown below the parent li */
+    left: 0;
+}
+
+.navBar_header ul li:hover ul.dropdown {
+    display: block;
+}
+
+.navBar_header ul li ul.dropdown li {
+    display: block;
+    text-align: left;
+}
+
+.navBar_header ul li a:hover {
+    background-color: #497dca;
+}
+
+/* Optional: Add a subtle transition effect */
+.navBar_header ul li ul.dropdown {
+    transition: opacity 0.3s ease-in-out;
+    opacity: 0;
+}
+
+.navBar_header ul li:hover ul.dropdown {
+    opacity: 1;
+}
+
+
+/* Login Page*/
+body {
+    font-family: "Segoe UI", Verdana, Arial, sans-serif !important;
+    font-size: 12px !important;
+    background-color: white !important;
+}
+
+.Login-WholeContent {
+    margin: 8px;
+    display: block;
+    height: auto;
+    border: 1px solid rgb(0, 0, 0, 0.5);
+    min-width: 720px;
+    max-width: 720px;
+    margin: 10px auto;
+    border: 1px solid white;
+    border-color: rgba(255, 255, 255, 0.75);
+    border-radius: 0.8em;
+    -moz-border-radius: 0.8em;
+    -webkit-border-radius: 0.8em;
+    box-shadow: 0 0 4px rgba(50, 50, 50, 0.5);
+    -moz-box-shadow: 0 0 4px rgba(50, 50, 50, 0.5);
+    -webkit-box-shadow: 0 0 4px rgba(50, 50, 50, 0.5);
+    padding: 0.5em;
+
+}
+
+.HeaderContent {
+    text-align: center;
+}
+
+.HeaderContent h1 {
+    color: #353589;
+}
+
+.BodyContent {
+    width: 100%;
+}
+
+.BodyContent table {
+    border-collapse: separate;
+    text-indent: initial;
+    border-spacing: 2px;
+}
+
+.BodyContent tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+
+
+.BodyContent tr td {
+    vertical-align: top;
+}
+
+.loginpage-img-main {
+    max-width: 300px;
+}
+
+.loginpage-img-main img {
+    border-radius: 8px;
+    max-width: 300px;
+}
+
+.loginpage-form-group {
+    float: right;
+    margin: 0px 10px;
+    border: 1px solid #9A9A9A;
+    border-radius: 0.8em;
+    -moz-border-radius: 0.8em;
+    -webkit-border-radius: 0.8em;
+    padding: 10px 10px;
+    min-width: 230px;
+}
+
+.form-group {
+    margin: 5px;
+    padding-left: 5px;
+    text-align: left;
+}
+
+.form-group label {
+    display: block;
+    float: left;
+    width: 80px;
+    line-height: 20px;
+    color: #333333;
+}
+
+.form-group-forgotPassword {
+    position: inherit;
+    right: 0px;
+}
+
+.display_none_passing_props{
+    display: none;
+}
+
+.form-group-marginTop {
+    margin-top: 5px;
+}
+
+.form-group-button {
+    border-radius: 3px;
+    border: none;
+    /* padding-left: 10px;
+    padding-right: 10px; */
+    display: inline-block;
+    text-align: center;
+    width:100%;
+}
+
+.form-group-button:hover {
+    background-color: grey;
+    border-radius: 3px;
+    border: none;
+}
+
+/*Employee table*/
+.table_form {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.table_form td,
+th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+.table_form tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+.standard_button {
+    background-color: #0c2b5a;
+    color: #fff;
+    padding: 7px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
