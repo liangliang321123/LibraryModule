@@ -6,7 +6,7 @@ Here are some details of this project :
 - ASP.Net Core Web API
 - Entity Framework
 - MSSQL
-- Javascript, HTML, CSS
+- Javascript, HTML, CSS, C#
 
 Main Features :
 1. Book borrowing and returning function.
