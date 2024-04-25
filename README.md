@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -68,3 +69,22 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+=======
+# LIBRARY MODULE
+
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+## Information
+Here are some details of this project :
+- React JS
+- ASP.Net Core Web API
+- Entity Framework
+- MSSQL
+
+Main Features :
+1. Book borrowing and returning function.
+2. Storing and Managing user borrowed book
+3. Able to create user and admin as well as update new password
+4. Book searching function
+   
+>>>>>>> 366bcbd31666c0167a52e77154f45c3273e9a74a
