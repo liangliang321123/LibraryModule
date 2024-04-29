@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/LibraryModule/static/css/main.214d3507.css",
+    "main.js": "/LibraryModule/static/js/main.8f19eec2.js",
+    "static/media/LoginImage.jpg": "/LibraryModule/static/media/LoginImage.b92babc88073345c587c.jpg",
+    "index.html": "/LibraryModule/index.html",
+    "main.214d3507.css.map": "/LibraryModule/static/css/main.214d3507.css.map",
+    "main.8f19eec2.js.map": "/LibraryModule/static/js/main.8f19eec2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.214d3507.css",
+    "static/js/main.8f19eec2.js"
+  ]
+}
